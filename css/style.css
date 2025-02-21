@@ -60,6 +60,14 @@ header{
   width: 60%;
 }
 
+.h30{
+  height: 30px;
+}
+
+.h50{
+  height: 50px;
+}
+
 .h150{
   height: 150px;
 }
@@ -88,8 +96,12 @@ header{
   padding-top: 10px;
 }
 
-.py-60-b{
-  padding-bottom: 60px;
+.py-50-t{
+  padding-top: 50px;
+}
+
+.py-50-b{
+  padding-bottom: 50px;
 }
 
 .py-60{
@@ -153,6 +165,14 @@ header{
   display: flex;
 }
 
+.justify-betw{
+  justify-content: space-between;
+}
+
+.align-center{
+  align-items: center;
+}
+
 /* page content style */
 .bg-dgrey .bg-dpink{
   flex-grow: 2;
@@ -165,4 +185,9 @@ header{
 
 footer hr{
   color: white;
+}
+
+.btn{
+  padding: 4px 15px;
+  font-size: 14px;
 }
