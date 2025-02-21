@@ -9,6 +9,7 @@ body{
   font-weight: 100;
 }
 
+
 .container{
   max-width: 60%;
   margin: 0 auto;
@@ -136,6 +137,32 @@ header{
   background-color: darkgreen;
 }
 
+.bg-dgrey{
+  background-color: rgb(50, 50, 50);
+}
+
+.bg-teal{
+  background-color: teal;
+}
+
+.bg-aquamarine{
+  background-color: aquamarine;
+}
+
 .d-flex{
   display: flex;
+}
+
+/* page content style */
+.bg-dgrey .bg-dpink{
+  flex-grow: 2;
+}
+
+.bg-dgrey .bg-teal{
+  border: 2px dashed white;
+  flex-grow: 1;
+}
+
+footer hr{
+  color: white;
 }
