@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
 .container{
   max-width: 60%;
   margin: 0 auto;
@@ -54,6 +59,22 @@ header{
   width: 60%;
 }
 
+.h150{
+  height: 150px;
+}
+
+.h350{
+  height: 350px;
+}
+
+.h400{
+  height: 400px;
+}
+
+.h500{
+  height: 500px;
+}
+
 .my-10{
   margin-top: 10px;
 }
@@ -89,6 +110,30 @@ header{
 
 .bg-fuchsia{
   background-color: fuchsia;
+}
+
+.bg-pink{
+  background-color: pink;
+}
+
+.bg-dpink{
+  background-color: rgb(207, 137, 180);
+}
+
+.bg-lblue{
+  background-color: lightblue;
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.bg-lgrey{
+  background-color: lightgrey;
+}
+
+.bg-dgreen{
+  background-color: darkgreen;
 }
 
 .d-flex{
